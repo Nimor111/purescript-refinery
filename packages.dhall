@@ -116,12 +116,10 @@ let additions =
   }
 -------------------------------
 -}
-
-
 let upstream =
-      https://github.com/purescript/package-sets/releases/download/psc-0.13.6-20200127/packages.dhall sha256:06a623f48c49ea1c7675fdf47f81ddb02ae274558e29f511efae1df99ea92fb8
+      https://github.com/purescript/package-sets/releases/download/psc-0.14.4-20211109/packages.dhall sha256:e8d8d5b339f6d46d950da90037c6c38e8809f7e34f727373089ab82c080fc709
 
-let overrides = { metadata = upstream.metadata // { version = "v0.13.4" } }
+let overrides = { metadata = upstream.metadata // { version = "v0.14.4" } }
 
 let additions = {=}
 
